@@ -1,0 +1,35 @@
+{
+  "name": "design_patterns",
+  "version": "1.0.0",
+  "description": "Implementing GOF Design Patterns",
+  "main": "README.md",
+  "scripts": {
+    "build": "tsc --outDir dist --rootDir src",
+    "lint": "tslint --project .",
+    "test": "jest src --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnWebb4/design_patterns.git"
+  },
+  "keywords": [
+    "Design",
+    "Patterns",
+    "GOF"
+  ],
+  "author": "JohnWebb4",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JohnWebb4/design_patterns/issues"
+  },
+  "homepage": "https://github.com/JohnWebb4/design_patterns#readme",
+  "devDependencies": {
+    "@types/jest": "^23.3.7",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.4",
+    "tslint": "^5.11.0"
+  },
+  "dependencies": {
+    "typescript": "^3.1.3"
+  }
+}
