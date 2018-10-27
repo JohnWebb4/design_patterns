@@ -1,3 +1,5 @@
+import { logger } from "../util/logger";
+
 interface IShape {
   draw: () => void;
 }
@@ -8,19 +10,19 @@ enum ShapeTypes {
 }
 
 class Rectangle implements IShape {
-  draw(): void {
-    console.log('A Rectangle');
+  public draw(): void {
+    logger.log("A Rectangle");
   }
 }
 
 class Square implements IShape {
-  draw(): void {
-    console.log('A Square');
+  public draw(): void {
+    logger.log("A Square");
   }
 }
 
 class ShapeFactory {
-  getShape(type: string): IShape {
+  public getShape(type: string): IShape {
     if (type === ShapeTypes.Rectangle) {
       return new Rectangle();
     } else if (type === ShapeTypes.Square) {
@@ -36,5 +38,5 @@ export {
   Rectangle,
   ShapeFactory,
   ShapeTypes,
-  Square
+  Square,
 };

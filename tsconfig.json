@@ -7,9 +7,9 @@
     "sourceMap": true
   },
   "include": [
-    "src",
+    "src/**/*.ts",
   ],
   "exclude": [
-    "*.spec.ts",
+    "src/**/*.spec.ts",
   ]
 }
