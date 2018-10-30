@@ -5,7 +5,7 @@
   "main": "README.md",
   "scripts": {
     "build": "tsc --outDir dist --rootDir src",
-    "lint": "tslint --project .",
+    "lint": "tslint --project tsconfig.json -e ./src",
     "test": "jest src --coverage"
   },
   "repository": {

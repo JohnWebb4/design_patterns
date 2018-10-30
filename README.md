@@ -34,6 +34,20 @@ Store a static instance of an object. Any calls fetch the same instance.
 
 Great way to create global objects
 
+### [Builder](/src/creational/builder.ts)
+
+Quicky assemble a collection of objects with similar properties.
+
+- Pros:
+  - Very fast for making pre-built collections of objects
+  - Peform operations on collection of objects
+
+- Cons:
+  - Does not work well with very very unique collections
+  - All objects must share functionality
+
+Quicky assemble a collection
+
 ## Structural
 
 Class and object implementation and inheritance. Composition of classes
