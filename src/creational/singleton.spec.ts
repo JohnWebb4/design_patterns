@@ -2,7 +2,7 @@ import "jest";
 
 import { Singleton } from "./singleton";
 
-describe("Singleton", () => {
+describe("Singleton Pattern", () => {
   describe("when I get the instance", () => {
     it("it should alwasy be the same object", () => {
       expect(Singleton.getInstance()).toBe(Singleton.getInstance())

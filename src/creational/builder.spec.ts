@@ -7,7 +7,7 @@ jest.mock("../util/logger", () => ({
   },
 }));
 
-describe("Builder", () => {
+describe("Builder Pattern", () => {
 
   describe("Meal Builder", () => {
     let mealBuilder: MealBuilder;
@@ -15,6 +15,7 @@ describe("Builder", () => {
     beforeEach(() => {
       mealBuilder = new MealBuilder();
     });
+
     it("should create a double wonder meal", () => {
       const meal = mealBuilder.prepareDoubleWonderMeal();
 

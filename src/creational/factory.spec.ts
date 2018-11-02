@@ -9,7 +9,7 @@ jest.mock("../util/logger", () => ({
   },
 }));
 
-describe("factory pattern", () => {
+describe("Factory Pattern", () => {
   let shapeFactory: ShapeFactory;
 
   beforeEach(() => {

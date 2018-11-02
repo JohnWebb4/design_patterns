@@ -1,18 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Builder Cajun Fries when preparing meal should return preparable 1`] = `
+exports[`Builder Pattern Cajun Fries when preparing meal should return preparable 1`] = `
 Serveable {
   "prepareFee": 1,
 }
 `;
 
-exports[`Builder Everything Burger when preparing meal should return preparable 1`] = `
+exports[`Builder Pattern Everything Burger when preparing meal should return preparable 1`] = `
 Cookable {
   "prepareFee": 3,
 }
 `;
 
-exports[`Builder Meal Builder should add food to order 1`] = `
+exports[`Builder Pattern Meal Builder should add food to order 1`] = `
 Meal {
   "food": Array [
     DoubleBurger {
@@ -31,7 +31,7 @@ Meal {
 }
 `;
 
-exports[`Builder Meal Builder should create a double wonder meal 1`] = `
+exports[`Builder Pattern Meal Builder should create a double wonder meal 1`] = `
 Meal {
   "food": Array [
     DoubleBurger {
@@ -46,7 +46,7 @@ Meal {
 }
 `;
 
-exports[`Builder Meal Builder should create spicy meal 1`] = `
+exports[`Builder Pattern Meal Builder should create spicy meal 1`] = `
 Meal {
   "food": Array [
     EverythingBurger {

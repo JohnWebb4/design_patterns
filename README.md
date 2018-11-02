@@ -48,6 +48,16 @@ Quicky assemble a collection of objects with similar properties.
 
 Quicky assemble a collection
 
+### [Abstract Factory](/src/creational/abstractFactory.ts)
+
+Quickly create instances of factories
+
+- Pros: Store all classes of factories in one place
+
+- Cons: Every factory inherits every method from abstract Factory. Lots of carry over
+
+Quickly create factories
+
 ## Structural
 
 Class and object implementation and inheritance. Composition of classes
