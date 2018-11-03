@@ -58,6 +58,16 @@ Quickly create instances of factories
 
 Quickly create factories
 
+### [Prototypal](/src/creational/prototypal.ts)
+
+Create clones of original, for avoid heavy instantiations (ex. database references)
+
+- Pros: Only instantiated once. All objects are then clones.
+
+- Cons: All objects are clones of base object. No custom construction.
+
+Factory pattern that returns clones of object
+
 ## Structural
 
 Class and object implementation and inheritance. Composition of classes
