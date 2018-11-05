@@ -73,6 +73,18 @@ Factory pattern that returns clones of object
 Class and object implementation and inheritance. Composition of classes
 to achieve new features.
 
+### [Adapter](/src/structural/adapter.ts)
+
+Create adapter to allow one class to support functionality of another
+
+- Pros: Allows class to _adapt_ to support others
+
+- Cons:
+  - It is not obvious if a class has been adapted.
+  - Overhead of creating an adapter, when a manager class could have decided what to use in the first place.
+
+Adapt a class to support other functionality
+
 ## Behavioural
 
 How object interact and behave together.
