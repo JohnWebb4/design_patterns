@@ -5,9 +5,9 @@ Implementing Different Design Patterns
 This implements the 23 design patterns apart of the _Gang of Four_
 
 | Pattern   | Classification | Implemented |
-| -------   | -------------- | ----------- |
-| Factory   |   Creational   |     Yes     |
-| Singleton |   Creational   |     Yes     |
+| --------- | -------------- | ----------- |
+| Factory   | Creational     | Yes         |
+| Singleton | Creational     | Yes         |
 
 ## Creational
 
@@ -84,6 +84,27 @@ Create adapter to allow one class to support functionality of another
   - Overhead of creating an adapter, when a manager class could have decided what to use in the first place.
 
 Adapt a class to support other functionality
+
+### [Bridge](/src/structural/bridge.ts)
+
+Create bridge to decouble abstraction from implementation
+
+- Pros: Abstract and implementation can vary without affecting each other
+- Cons: The actual nature of the class is determined at runtime
+
+Code injection of bridge.
+
+### [Filter](/src/structural/filter.ts)
+
+Filter criteria from a collection
+
+- Pros:
+  - OOP style filtering of a collection
+  - Easy to mix criteria with AND and OR
+  - Reusable
+- Cons: Verbose OOP style compared to a built in filter
+
+Filter a collection
 
 ## Behavioural
 
