@@ -106,6 +106,17 @@ Filter criteria from a collection
 
 Filter a collection
 
+### [Composite](/src/structural/composite.ts)
+
+Compose a class inside other instances of the same class
+
+- Pros:
+  - Easy manipulation of collection elements
+  - Class properties are shared with base and composed elements
+- Cons: Only works well with One-to-Many Relationship (One instance _owns_ another)
+
+Compose instances of same class
+
 ## Behavioural
 
 How object interact and behave together.
