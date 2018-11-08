@@ -18,6 +18,7 @@ This implements the 23 design patterns apart of the _Gang of Four_
   - Filter
   - Composite
   - Decorator
+  - Facade
 
 ## Creational
 
@@ -135,6 +136,15 @@ Augment a class with new functionality
 - Cons: Wraps class with functionality
 
 Wrap class with functionality
+
+### [Facade](/src/structural/facade.ts)
+
+Abstract complexities of a system to a single class
+
+- Pros: Once set up very easy to use
+- Cons: Setup involes setting up the entire network in an easy to use way
+
+Simplify a system to a simple class
 
 ## Behavioural
 
