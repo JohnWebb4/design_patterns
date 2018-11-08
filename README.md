@@ -4,10 +4,20 @@ Implementing Different Design Patterns
 
 This implements the 23 design patterns apart of the _Gang of Four_
 
-| Pattern   | Classification | Implemented |
-| --------- | -------------- | ----------- |
-| Factory   | Creational     | Yes         |
-| Singleton | Creational     | Yes         |
+## Table of Contents
+
+- Creational
+  - Factory
+  - Singleton
+  - Builder
+  - Abstract Factory
+  - Prototypal
+- Structural
+  - Adapter
+  - Bridge
+  - Filter
+  - Composite
+  - Decorator
 
 ## Creational
 
@@ -116,6 +126,15 @@ Compose a class inside other instances of the same class
 - Cons: Only works well with One-to-Many Relationship (One instance _owns_ another)
 
 Compose instances of same class
+
+### [Decorator](/src/structural/decorator.ts)
+
+Augment a class with new functionality
+
+- Pros: Easily add functionality to a class
+- Cons: Wraps class with functionality
+
+Wrap class with functionality
 
 ## Behavioural
 
