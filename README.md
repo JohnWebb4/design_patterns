@@ -146,6 +146,15 @@ Abstract complexities of a system to a single class
 
 Simplify a system to a simple class
 
+### [Flyweight](/src/structural/flyweight.ts)
+
+Store instance of a class for reuse
+
+- Pros: Performance and memory savings
+- Cons: Similar object are the same instance
+
+Memoize instances of an object for reuse
+
 ## Behavioural
 
 How object interact and behave together.
