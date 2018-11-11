@@ -155,6 +155,14 @@ Store instance of a class for reuse
 
 Memoize instances of an object for reuse
 
+### [Proxy](/src/structural/proxy.ts)
+
+Create proxy to consolidate high cost operations
+
+- Pros: Reduces high cost operations for efficiency
+
+Reduce high cost operations
+
 ## Behavioural
 
 How object interact and behave together.
