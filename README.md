@@ -167,6 +167,15 @@ Reduce high cost operations
 
 How object interact and behave together.
 
+### [Responsibility](/src/behavioural/responsibility.ts)
+
+Delegate responsibility of one class to another
+
+- Pros: Chain responsibility of handling a call
+- Cons: Creating many instances of similar objects to chain functionality
+
+ES6 Promises
+
 ## J2EE
 
 How data objects are presented, and the related design patterns.
