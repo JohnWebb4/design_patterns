@@ -176,6 +176,15 @@ Delegate responsibility of one class to another
 
 ES6 Promises
 
+### [Command](/src/behavioural/command.ts)
+
+Store commands to be execute at some point in the future
+
+- Pros: Command can be executed when convenient
+- Cons: Creating a new class for each command
+
+Store commands
+
 ## J2EE
 
 How data objects are presented, and the related design patterns.
