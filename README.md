@@ -185,6 +185,33 @@ Store commands to be execute at some point in the future
 
 Store commands
 
+### [Interpreter](/src/behavioural/interpreter.ts)
+
+Evaluate an expression
+
+- Pros: Mix interpretes for new functionality
+- Cons: Need strong understanding of language rules
+
+Interprete a piece of information or a string
+
+### [Iterator](/src/behavioural/iterator.ts)
+
+Get elements of a collection in sequence
+
+- Pros: Handle an collection
+- Cons: Iterate through array in one direction from start to finish (usually)
+
+Iterate through a collection
+
+### [Mediator](/src/behavioural/mediator.ts)
+
+Use intermediary between multiple objects to reduce complexity
+
+- Pros: One static object holds functionality for many objects (functionality is used by all)
+- Cons: All objects reference same method (changing functionality affects all) (arguable pro/con)
+
+One static object is used for functionality of many
+
 ## J2EE
 
 How data objects are presented, and the related design patterns.
