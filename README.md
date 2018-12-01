@@ -212,6 +212,13 @@ Use intermediary between multiple objects to reduce complexity
 
 One static object is used for functionality of many
 
+### [Observer](/src/behavioural/observer.ts)
+
+Observe events
+
+- Pros: Handle events asynchronously
+- Cons: State manages all observers
+
 ## J2EE
 
 How data objects are presented, and the related design patterns.
