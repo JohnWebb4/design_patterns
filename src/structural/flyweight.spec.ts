@@ -32,7 +32,10 @@ describe("Flyweight Pattern", () => {
         blue2.y = 20;
 
         expect(blue1).toBe(blue2);
-        expect(blue1.draw()).toEqual("Blue circle at (10, 20)");
+
+        blue1.draw();
+
+        expect(logger.log).toHaveBeenCalledWith("Blue circle at (10, 20)");
       });
     });
   });
