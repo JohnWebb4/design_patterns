@@ -223,6 +223,15 @@ Observe events
 
 How data objects are presented, and the related design patterns.
 
+### [Transfer Object](/src/j2ee/transferObject.ts)
+
+Easily serialize and manage data
+
+- Pros: Value Object (VO) only holds data. Easy to manipulate.
+- Cons: Decoupling functionality just means you define it somewhere else.
+
+Decouple data from functionality to make it easy to manipulate
+
 ## License
 
 [MIT](/LICENSE)
