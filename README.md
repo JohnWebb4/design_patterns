@@ -223,6 +223,24 @@ Observe events
 
 How data objects are presented, and the related design patterns.
 
+### [Intercepting Filter](/src/j2ee/interceptingFilter.ts)
+
+Filter requests
+
+- Pros: Reduces traffic to resolver
+- Cons: You must know when a request will always fail
+
+'Circuit break' requests that you know will fail
+
+### [Service Locator](/src/j2ee/serviceLocator.ts)
+
+Cache services for easy reuse
+
+- Pros: Expensive databases are reused
+- Cons: You must store an instance of each service
+
+Cache services if commonly used
+
 ### [Transfer Object](/src/j2ee/transferObject.ts)
 
 Easily serialize and manage data
